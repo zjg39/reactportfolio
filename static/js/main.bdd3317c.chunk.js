@@ -1,0 +1,2 @@
+(this.webpackJsonpreactportfolio=this.webpackJsonpreactportfolio||[]).push([[0],{9:function(e,t,o){"use strict";o.r(t);o(0);var r=o(3),c=o.n(r),n=o(1);var s=function(){return Object(n.jsx)("div",{className:"App",children:"Hello world!"})};c.a.render(Object(n.jsx)(s,{}),document.getElementById("root"))}},[[9,1,2]]]);
+//# sourceMappingURL=main.bdd3317c.chunk.js.map
