@@ -14,7 +14,7 @@ const styles = {
         fontSize: 25,
     },
 };
-export default function homePage() {
+export default function Home() {
     return (
         <section>
             <img style={styles.mainPhoto} src={picture} alt="fishing photo"/>

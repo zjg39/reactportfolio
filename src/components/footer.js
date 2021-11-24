@@ -1,6 +1,6 @@
 import React from "react";
 
-function footer() {
+function Footer() {
   return (
     <footer className="footer bg-dark fixed-bottom">
       <div className="text-center">
@@ -18,7 +18,7 @@ function footer() {
             className="btn-floating btn-lg"
           />
         </a>
-        <a href="https://github.com/RoseLuu">
+        <a href="https://github.com/zjg39">
           <img
             src="https://img.icons8.com/ios/50/000000/github--v1.png"
             alt="Github"
@@ -30,4 +30,4 @@ function footer() {
   );
 }
 
-export default footer;
+export default Footer;

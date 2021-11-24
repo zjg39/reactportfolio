@@ -25,7 +25,7 @@ const styles = {
     );
   }
   
-  function projects() {
+  function Portfolio() {
     return (
       <section className="container">
         <div className="project">
@@ -34,7 +34,7 @@ const styles = {
         </div>
   
         <wrapper>
-          {projects.map((project) => (
+          {Portfolio.map((project) => (
             <cards
               key={project.id}
               image={project.image}
@@ -47,4 +47,4 @@ const styles = {
     );
   }
   
-  export default projects;
+  export default Portfolio;
