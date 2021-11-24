@@ -1,5 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { projects } from "./projects";
 const style = {
     image: {
         width: "100%",
@@ -17,7 +18,7 @@ const style = {
         position: "relative"
         }
     };
-function cards(props) {
+export default function Cards(props) {
     return (
         <div className="card m-3 border-dark" style={style.card}>
       <div style={style.imageContainer}>
@@ -33,6 +34,12 @@ function cards(props) {
       >
         <p className="card-title">{props.name}</p>
         <p>
+        <a href={props.github}>
+            <img
+              src="https://img.icons8.com/fluent/48/000000/github.png"
+              alt="GitHub Repo"
+            />
+          </a>
           <a href={props.deploy}>
             <img
               src="https://img.icons8.com/fluent/48/000000/web.png"
@@ -45,4 +52,3 @@ function cards(props) {
 
     );
 }
-export default cards;

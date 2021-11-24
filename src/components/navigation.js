@@ -14,7 +14,7 @@ function Navigation({ currentPage, changePage }) {
                 <a href="#about" style={navigationStyle} onClick={() => changePage('About')} className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}>About</a>
             </li>
             <li className="nav-item">
-                <a href="#portfolio" style={navigationStyle} onClick={() => changePage('Work')} className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}>Portfolio</a>
+                <a href="#Portfolio" style={navigationStyle} onClick={() => changePage('Portfolio')} className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}>Portfolio</a>
             </li>
             <li className="nav-item">
                 <a href="#Contact" style={navigationStyle} onClick={() => changePage('Contact')} className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}>Contact</a>

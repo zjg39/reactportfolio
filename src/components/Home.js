@@ -2,13 +2,15 @@ import React from "react";
 import picture from "./images/fishing.jpeg";
 const styles = {
     mainPhoto: {
-        width: "75%",
-        height: 150,
-        backgroundSize: "cover",
+        width: "auto",
+        height: 400,
         backgroundPosition: "center",
+        backgroundSize: "cover",
         justifyContent: "flex-end",
-        alignItems: "flex-end"
-    },
+        flexWrap: "wrap",
+        alignItems: "center",
+
+      },
     Text: {
         color: "black",
         fontSize: 25,
@@ -16,7 +18,7 @@ const styles = {
 };
 export default function Home() {
     return (
-        <section>
+        <section style={{display: "flex", justifyContent: "center"}}>
             <img style={styles.mainPhoto} src={picture} alt="fishing photo"/>
             <div className="m-5">
                 <h1 className="text-center" style={{ color: "black"}}> Zac Goad </h1>

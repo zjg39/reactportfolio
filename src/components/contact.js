@@ -43,7 +43,7 @@ function Contact() {
           <form>
             <div className="form-row">
               <div className="form-group col-md-6">
-                <label htmlFor="name" style={{ color: "lightcyan" }}>
+                <label htmlFor="name" style={{ color: "black" }}>
                   Your Name:
                 </label>
                 <input
