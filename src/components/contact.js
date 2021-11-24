@@ -38,7 +38,7 @@ function Contact() {
         setError("");
     };
     return (
-        <div className="container">
+        <div className="container" style={{ backgroundColor: "gray", padding: 50}}>
           <h1 style={{ color: "lightcyan" }}>Contact</h1>
           <form>
             <div className="form-row">
@@ -56,7 +56,7 @@ function Contact() {
                 />
               </div>
               <div className="form-group col-md-6">
-                <label htmlFor="email" style={{ color: "lightcyan" }}>
+                <label htmlFor="email" style={{ color: "black" }}>
                   Email Address:
                 </label>
                 <input
@@ -69,7 +69,7 @@ function Contact() {
                 />
               </div>
               <div className="form-group col-md-6">
-                <label htmlFor="message" style={{ color: "lightcyan" }}>
+                <label htmlFor="message" style={{ color: "black" }}>
                   Message:
                 </label>
                 <textarea

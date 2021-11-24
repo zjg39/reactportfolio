@@ -2,10 +2,11 @@ import React from "react";
 
 export default function About() {
     return (
-        <section className="container">
+        <section className="container" style={{ backgroundColor: "darkgray", padding: 50, textAlign: "center"}}>
             <h1 style={{ color: "lightcyan" }}>About</h1>
             <div>
-                <p className="m-10" style={{ color: "black", fontSize: 25, textAlign: "center" }}>
+                <br></br>
+                <p className="m-10" style={{ color: "lightcyan", fontSize: 25, textAlign: "center" }}>
                     I am a junior software developer, currently enrolled in the 
                     Full Stack Web Development Bootcamp at Georgia Tech!  My favorite
                     languages to work with are JavaScript and Python.  While I am 
@@ -15,7 +16,7 @@ export default function About() {
                 </p>
                 <br>
                 </br>
-                <p>
+                <p className="m-10" style={{ color: "lightcyan", fontSize: 25, textAlign: "center" }}>
                     When I'm not coding, I can usually by found in the garden or at the gym.
                     I am a classically trained cellist, and I am able to make, varnish, and
                     set up violins, violas, and of course, cellos.  My favorite composers are 

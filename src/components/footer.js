@@ -2,7 +2,7 @@ import React from "react";
 
 function Footer() {
   return (
-    <footer className="footer bg-dark fixed-bottom">
+    <footer className="footer bg-light fixed-bottom">
       <div className="text-center">
         <a href="mailto:zjgoad@gmail.com">
           <img

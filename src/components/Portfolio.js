@@ -24,7 +24,7 @@ const styles = {
       </div>
     );
   }
-  
+  const portfolio = [];
   function Portfolio() {
     return (
       <section className="container">
@@ -34,7 +34,7 @@ const styles = {
         </div>
   
         <wrapper>
-          {Portfolio.map((project) => (
+          {portfolio.map((project) => (
             <cards
               key={project.id}
               image={project.image}

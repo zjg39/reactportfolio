@@ -4,20 +4,20 @@ const navigationStyle = {
     color: "lightBlue"
 }
 
-function Navigation({ currentPage, pageChange }) {
+function Navigation({ currentPage, changePage }) {
     return (
         <ul className="navList">
             <li className="nav-item">
-                <a href="#home" style={navigationStyle} onClick={() => pageChange('Home')} className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}>Home</a>
+                <a href="#home" style={navigationStyle} onClick={() => changePage('Home')} className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}>Home</a>
             </li>
             <li className="nav-item">
-                <a href="#about" style={navigationStyle} onClick={() => pageChange('Portfolio')} className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}>About</a>
+                <a href="#about" style={navigationStyle} onClick={() => changePage('About')} className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}>About</a>
             </li>
             <li className="nav-item">
-                <a href="#work" style={navigationStyle} onClick={() => pageChange('Work')} className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}>Work</a>
+                <a href="#portfolio" style={navigationStyle} onClick={() => changePage('Work')} className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}>Portfolio</a>
             </li>
             <li className="nav-item">
-                <a href="#Contact" style={navigationStyle} onClick={() => pageChange('Contact')} className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}>Contact</a>
+                <a href="#Contact" style={navigationStyle} onClick={() => changePage('Contact')} className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}>Contact</a>
             </li>
         </ul>
     )
