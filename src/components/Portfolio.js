@@ -28,7 +28,7 @@ const styles = {
     {
       "id": 1,
       "name": "PokéBattle!",
-      "image": "",
+      "image": "/images/pokebattle.png",
       "github": "https://github.com/caitlinw29/pokeBattle",
       "deploy": "https://caitlinw29.github.io/pokeBattle/"
   },
@@ -83,6 +83,7 @@ const styles = {
               key={project.id}
               image={project.image}
               name={project.name}
+              github={project.github}
               deploy={project.deploy}
             />
           ))}
